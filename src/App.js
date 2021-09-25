@@ -53,7 +53,7 @@ class App extends React.Component {
         text: "",
         key: "",
       },
-      selected: this.options[0]
+      selected: this.options[1]
     };
   }
 
@@ -72,7 +72,6 @@ class App extends React.Component {
           key: "",
         },
       });
-      //  console.log(items)
     } 
   };
   handleInput = (e) => {
