@@ -12,9 +12,9 @@ body{
 }
 
 #to-do-form input{
-  background-color: rgba(27, 112, 137, 1);
+  background-color: #fff;
   border: 0; 
-  color: #fff;
+  color: #000000;
   width: 300px;
   height: 40px;
   /*margin: 20px;

@@ -31,17 +31,17 @@ class App extends React.Component {
       {
         label: "Light",
         value: "#F0E68C",
-        secondary: "#FFF8DC"
+        secondary: "#FFE4B5"
       },
       {
         label: "Dark",
-        value: "#2E201B",
-        secondary:"#2F4F4F"
+        value: "rgba(16, 17, 19, 0.2)",
+        secondary:" rgba(16, 17, 19, 0.5)"
       },
       {
-        label: "The color red",
-        value: "#4169E1",
-        secondary:"#B0E0E6"
+        label: "Soothing blue",
+        value: "#1E90FF",
+        secondary:"#87ceeb"
       },
      
      
@@ -143,11 +143,11 @@ class App extends React.Component {
                   onChange={this.handleInput}
                 ></input>
                 <div class="ui buttons">
-                  <button type="submit" class="ui positive button">
+                  <button type="submit" class="ui positive button" style={{backgroundColor:"#00FA9A", color:"#ffffff"}} >
                     Add
                   </button>
                   <div class="or"></div>
-                  <button onClick={this.deleteAll} class="ui button">
+                  <button onClick={this.deleteAll} class="ui button" style={{backgroundColor:"red", color:"#ffffff"}}>
                     Delete All
                   </button>
                 </div>
@@ -164,6 +164,8 @@ class App extends React.Component {
             setUpdate={this.setUpdate}
           />
         </div>
+        <br/>
+        <br/>
       </div>
     );
   }

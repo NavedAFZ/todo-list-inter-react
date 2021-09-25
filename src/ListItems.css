@@ -1,28 +1,43 @@
-.list{
-    color: #fff;
+.myList{
+    width:80% ;
+
+    margin-left:10%;
+    margin-top: 30px;;
+    background-color: white;
+    font-size: larger;
+    
+}
+.ui.button.viewList{
+    
+    margin-left:40%;
+}
+
+.List{
+    color:red;
     width: 400px;
     margin: 20px auto;
     height: 40px;
-    background-color: #bf07ac;
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 5px;
     text-align: center;
 }
-.list p{
+.List p{
     padding: 10px;
     position: relative;
     transition: ease-in-out;
 }
-.list p input{
+.List p input{
     background-color: transparent;
     border: 0;
     color: #fff;
     font-size: 18px;
     width: 80%;
 }
-.list p input:focus{
+
+.List p input:focus{
     outline: none;
 }
-.list p span{
+.List p span{
     position: absolute;
     right: 10px;
 }
